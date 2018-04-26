@@ -3,7 +3,6 @@
 
 
 
-#### 注意,如果您需要查看详细的注释, 可以下载swift版本里面, 这里很多地方就没有把注释移过来了
 ----
 ## 使用示例效果
 ![滚动示例1.gif](http://upload-images.jianshu.io/upload_images/1271831-ecb291a43d1e5209.gif?imageMogr2/auto-orient/strip)![滚动示例2.gif](http://upload-images.jianshu.io/upload_images/1271831-bd679dbe86ab7404.gif?imageMogr2/auto-orient/strip)![滚动示例3.gif](http://upload-images.jianshu.io/upload_images/1271831-e094a23212160015.gif?imageMogr2/auto-orient/strip)
