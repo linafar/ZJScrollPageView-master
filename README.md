@@ -1,7 +1,7 @@
 # ZJScrollPageView
 #### OC版的简单方便的集成网易新闻, 腾讯视频, 头条 等首页的滑块视图联动的效果, segmentVIew, scrollViewController
 
-### swift版本的请点[这里](https://github.com/jasnig/ScrollPageView)
+
 
 #### 注意,如果您需要查看详细的注释, 可以下载swift版本里面, 这里很多地方就没有把注释移过来了
 ----
@@ -50,18 +50,6 @@
  * 如果你仍然想利用子控制器的生命周期方法, 请使用'ZJScrollPageViewChildVcDelegate'提供的代理方法
  * 或者'ZJScrollPageViewDelegate'提供的代理方法
  
-
-----
-### 更新说明
-* 2016/05/26 新增了一个通知ScrollPageViewDidShowThePageNotification, 你可以监听这个通知来获取到正在显示的页数, 使用的示例可以参照 ZJSegmentStyle.h里面的说明
-* 2016/05/27 增加了一个style属性 segmentViewBounces, 来设置segmentView是否有弹性
-* 2016/05/27 增加了一个style属性 scrollContentView, 来设置contentView是否能滑动
-* 2016/06/12 增加了一个分类, 提供了 scrollPageParentViewController属性, 方便在每个界面获取到父控制器
-* 2016/06/29 更改了初始化方法, 改为了使用代理来传递相关的自控制器 方便动态更新
-* 2016/06/30 新增加了子控制器遵守的协议ZJScrollPageViewChildVcDelegate, 用于页面出现的时候加载数据
-* 2016/08/21 增加了可以显示图片, 和设置图片的不同位置的功能
-* 2016/10/28 修复一直bug, 保证了子控制器的生命周期方法被正确调用.
-----
 
 
 
@@ -247,13 +235,6 @@
 	}
     
     
-    
-> 这是我写的<iOS自定义控件剖析>这本书籍中的一个demo, 如果你希望知道具体的实现过程和其他的一些常用效果的实现, 那么你应该能轻易在网上下载到免费的盗版书籍. 
 
-> 当然作为本书的写作者, 还是希望有人能支持正版书籍. 如果你有意购买书籍, 在[这篇文章中](http://www.jianshu.com/p/510500f3aebd), 介绍了书籍中所有的内容和书籍适合阅读的人群, 和一些试读章节, 以及购买链接. 在你准备[购买](http://www.qingdan.us/product/13)之前, 请一定读一读里面的说明. 否则, 如果不适合你阅读, 虽然书籍售价35不是很贵, 但是也是一笔损失.
-
-
-> 如果你希望联系到我, 可以通过[简书](http://www.jianshu.com/users/fb31a3d1ec30/latest_articles)联系到我
-## License
 
 ScrollPageView is released under the MIT license. See LICENSE for details.
